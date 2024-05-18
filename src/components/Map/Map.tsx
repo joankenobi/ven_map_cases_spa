@@ -1,10 +1,8 @@
-import { Typography } from "@material-ui/core"
-import * as React from 'react';
+// import { Typography } from "@material-ui/core"
+// import * as React from 'react';
 import Map from 'react-map-gl/maplibre';
 
-Typography
-
-function Map(){
+function Mapcomp(){
     return(
     <Map
       initialViewState={{
@@ -18,4 +16,4 @@ function Map(){
     )
 }
 
-export default Map
+export default Mapcomp

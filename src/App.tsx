@@ -17,7 +17,7 @@ function App() {
         {/*<List>/*}
         {/* </Grid> */}
         {/* <Grid> */}
-          {/* <Map/> */}
+      <Map />
         {/* </Grid> */}
       {/* </Grid> */}
     </PrimeReactProvider>
