@@ -1,8 +1,8 @@
 import React from 'react';
-import { AppBar, Box, Toolbar, InputBase, Typography } from '@material-ui/core';
+// import { AppBar, Box, Toolbar, InputBase, Typography } from '@material-ui/core';
 import { Search } from '@material-ui/icons';
 
-function Header(): JSX.Element {
+function Header() {
 
     return (
         <AppBar>
