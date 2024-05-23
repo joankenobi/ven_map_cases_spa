@@ -3,6 +3,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
+
 function Mapcomp(){
   const mapContainer = useRef(null);
   const [viewState, setViewState] = useState({
@@ -14,7 +15,7 @@ function Mapcomp(){
   React.useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainer.current,
-      style: 'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_key',
+      style: 'https://api.maptiler.com/maps/streets/style.json?key=hE7PBueqYiS7hKSYUXP9',
       ...viewState
     });
     
